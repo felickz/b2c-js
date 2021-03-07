@@ -1,0 +1,22 @@
+{
+
+    // "target": "es5" - Specify ECMAScript target version: 'ES3' (default)
+    // "module": "commonjs" - Specify module code generation. In our case commonjs is perfectly fine.
+    // "declaration": true - Uncomment this line, by default it is commented. It generates corresponding '.d.ts' file, which will have all our type declarations in it, when we will build our project.
+    // "declarationMap": true - Uncomment this line also. It generates a source map for each corresponding '.d.ts' file.
+    // "sourceMap": true  - Uncomment this line as well. It generates corresponding '.map' file.
+    // "outDir": "./" - Uncomment this line as well and we will be adding here the path of a folder in which our library build should go.
+    "compilerOptions": {
+        "target": "ES5",
+        // "declaration": true,
+        // "declarationMap": true,
+        // "sourceMap": true,
+        "outDir": "lib"
+    },
+
+    // Finally, we have to tell Typescript that where our source code will be located
+    "include": [
+        "src"
+      ]
+}
+
