@@ -1,5 +1,9 @@
 {
     "files.exclude": {
         "**/*.js": false
-    }
+    },
+    "jasmineExplorer.nodeArgv": [
+        "-r", 
+        "ts-node/register"
+    ]
 }
