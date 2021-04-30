@@ -13,6 +13,7 @@ Provides a framework to expand on the available mechanisms for Azure AD B2C UI/U
 1. Show / Hide helpers - ability to clear required and regex validation (restriction: MUST NOT have Required="True" in policy)
 1. Date/Time Dropdown - ability to further define min/max date ranges to show user (Predicate restrictions only allow hardcoded and Today - EX: 18 years or older Today.AddYears(-18) )
 1. Hyperlink Builder - pass in a claim, link, and text -  will transform given text in to a/href
+1. Tab Ordering - Enforce proper tab order of UI controls
 
 ## Design
 Keep the API simple - fluent api on top of a "b2c" function.
