@@ -8,7 +8,7 @@
     "test": "test"
   },
   "dependencies": {
-    "jasmine": "^3.6.4",
+    "jasmine": "^6.0.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   },
